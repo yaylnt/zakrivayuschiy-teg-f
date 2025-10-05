@@ -122,7 +122,7 @@
   top: 25px;
   right: 25px;
   opacity: 50%;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-text-size);
   text-transform: uppercase;
   text-shadow: -1px 0 var(--main-color), 0 1px var(--main-color),
@@ -163,6 +163,8 @@
   cursor: pointer;
   inline-size: 38px;
   block-size: 38px;
+  display: flex;
+  align-items: center;
 }
 
 .card__icon-button:focus {
@@ -245,7 +247,7 @@
 
 .button__text {
   position: relative;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-text-size);
 }
 
@@ -270,8 +272,9 @@
 
 .dialog {
   display: none;
-  padding: 30px 40px;
-  inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  padding: 29px 39px;
+  inline-size: 341px;
+  max-inline-size: none;
 }
 
 .dialog[open] {
@@ -344,6 +347,7 @@
 @media (width > 376px) {
   .dialog {
     padding: 29px 29px;
+    inline-size: 353px;
   }
 
   .button__save {
