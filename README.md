@@ -2,13 +2,30 @@
 
 Интерактивная адаптивная страница с анимациями кнопок. К изображениям применены фильтры в CSS.
 
-_____
+------
+## Стек
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css" alt="Skills" />
+</p>
 
-Used:
+#### Посмотреть demo: [click](https://yaylnt.github.io/zakrivayuschiy-teg-f/)
 
-- HTML
-- CSS (flex, @media, @keyframes, transition, filter)
+## Мой вклад в проект
 
-https://github.com/yaylnt/zakrivayuschiy-teg-f.git
+- Свёрстан адаптивный лейаут по макету: резиновые шапка, карточки, футер и модальное окно; размеры через clamp() и CSS-переменные.
 
-Website: https://yaylnt.github.io/zakrivayuschiy-teg-f/
+- Подключены вариативный Inter и акцентный PressStart2P, настроены @font-face и веса шрифтов.
+
+- Создан сложный фиксированный фон из повторяющихся и линейного градиентов.
+
+- Реализованы лейблы поверх карточек: mix-blend-mode, прозрачность, обводка текста через @supports с фоллбэком на text-shadow.
+
+- Добавлено модальное окно на <dialog> с ::backdrop и переключением по атрибуту open.
+
+- Ко всем изображениям применены разные CSS-фильтры, включая множественный.
+
+- Проработаны состояния кнопок: :hover, :focus, :focus-visible, плавные transition, появление псевдоэлемента и смена цвета через mix-blend-mode: difference.
+
+- Сделана анимация SVG-иконки сердца: слои core, contour, main-body, sparks, переменные для fill, переходы для :hover, :active, клика и два @keyframes — масштабирование и вспышка искр.
+
+- Настроена адаптивность под ≤375px.
