@@ -8,6 +8,9 @@
   <img src="https://skillicons.dev/icons?i=html,css" alt="Skills" />
 </p>
 
+## Превью
+<img width="900" height="483" alt="preview" src="https://github.com/user-attachments/assets/bf79d9c0-051f-4a51-945d-a640a60b3913" />
+
 #### Посмотреть demo: [click](https://yaylnt.github.io/zakrivayuschiy-teg-f/)
 
 ## Мой вклад в проект
